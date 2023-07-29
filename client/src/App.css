@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #000;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+}
+
+img {
+  width: 30%;
+  height: 100%;
+}
+
+.wrapper  {
+  background-color: #fff;
+  background: linear-gradient(rgb(0, 0, 0), rgb(91, 91, 109), rgb(91, 91, 109));
+  width: 600px;
+  height: 400px;
+  margin: auto;
+
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.wrapper p {
+  padding-top: 20px;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-style: italic;
+}
